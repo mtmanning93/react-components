@@ -1,6 +1,7 @@
 import React from "react";
 
 export default class StatefulGreeting extends React.Component {
+  // Initial state
   constructor(props) {
     super(props);
     this.state = {
